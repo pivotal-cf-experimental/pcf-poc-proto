@@ -1,5 +1,6 @@
 applications:
-  - name: pcf-poc-proto
+  - name: pcf-poc-proto-ad
     path: .
     memory: 512MB
     instances: 1
+    random-route: true
