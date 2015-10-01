@@ -1,0 +1,20 @@
+.pivotal_io {
+  background-color: #f9f9f9;
+  &.platform {
+    .the_button {
+      position: absolute;
+      font-family: "Proxima Nova";
+      background-color: #059a91;
+      color: white !important;
+      z-index: 9000;
+      top: 461px;
+      left: 40%;
+      padding: 14px 44px;
+      font-size: 18px;
+      text-transform: uppercase;
+      &:hover {
+        background-color: #00cec2;
+      }
+    }
+  }
+}

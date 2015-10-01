@@ -1,0 +1,5 @@
+applications:
+  - name: pcf-poc-proto
+    path: .
+    memory: 512MB
+    instances: 1
